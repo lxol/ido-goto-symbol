@@ -48,6 +48,5 @@
                     (string= (car imenu--rescan-item) name))
           (add-to-list 'symbol-names name)
           (add-to-list 'name-and-pos (cons name position))))))))
-(global-set-key (kbd "M-i") 'ido-goto-symbol)
 
 (provide 'ido-goto-symbol)
